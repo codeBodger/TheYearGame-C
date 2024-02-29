@@ -1,0 +1,2 @@
+# .cstub files are really just weird C files
+*.cstub linguist-language=C
