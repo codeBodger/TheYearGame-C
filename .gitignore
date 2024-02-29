@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# This program is made of partial C files which are concatinated in a bash script
+# As such, true .c files should not be seen by git
+*.c
