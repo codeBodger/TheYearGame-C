@@ -47,6 +47,9 @@ def main():
 		worst.difference_update(best)
 		worst.difference_update(second_best)
 
+	with open("preprocessed.cinject", "w") as f:
+		f.write("")
+
 
 if __name__ == "__main__":
 	main()
