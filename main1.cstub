@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main() {
 	// Print out some additional information to the user regarding things that they might need to implement
 	printf("Here is a list of the approved operators for they year in which this was written.\n");
@@ -21,6 +19,3 @@ int main() {
 	printf("	4. 0^0 is equal to 1					(not implemented)\n");
 	printf("	5. Use of multidigit numbers should be avoided		(not implemented)\n");
 	printf("	6. Keeping the digits in order should be preffered	(not implemented)\n\n");
-
-	return 0;
-}
