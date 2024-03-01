@@ -1,2 +1,15 @@
 Binary operators: + * / ^  // No minus, as adding a negative does the same.  
 Unary  operators: - √ ! !!
+
+abcd+++ => a+(b+(c+d))
+abc+d++ => a+((b+c)+d)
+abc++d+ => (a+(b+c))+d
+ab+cd++ => (a+b)+(c+d)
+ab+c+d+ => ((a+b)+c)+d
+
+ab+c+ => (a+b)+c
+abc++ => a+(b+c)
+
+ab+ => a+b
+
+a => a
