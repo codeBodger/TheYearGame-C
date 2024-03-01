@@ -1,3 +1,11 @@
+char finalBinaryOperators[3][101];
+long long finalUnaryOperators[7][101];
+char finalWhichOrder[101];
+char finalScore[101];
+
+char binaryOperators[3] = { 0,0,0 };
+long long unaryOperators[7] = { 0,0,0,0 , 0,0,0 };
+
 void evalAndUpdateSecondBest4(float a, float b, float c, float d) {}
 void evalAndUpdateSecondBest3(float a, float b, float c) {}
 void evalAndUpdateSecondBest2(float a, float b) {}
