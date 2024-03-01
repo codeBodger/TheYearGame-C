@@ -1,3 +1,12 @@
+void evalAndUpdateSecondBest4(float a, float b, float c, float d) {}
+void evalAndUpdateSecondBest3(float a, float b, float c) {}
+void evalAndUpdateSecondBest2(float a, float b) {}
+void evalAndUpdateSecondBest1(float a) {}
+
+void evalAndUpdateWorst3(float a, float b, float c) {}
+void evalAndUpdateWorst2(float a, float b) {}
+void evalAndUpdateWorst1(float a) {}
+
 int main() {
 	// Print out some additional information to the user regarding things that they might need to implement
 	printf("Here is a list of the approved operators for they year in which this was written.\n");
