@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Clean up the files that this generates
+rm *.cinject
+rm main.*
+
 python3.11 preprocessor.py
 
 cat main0.cstub >  main.c
