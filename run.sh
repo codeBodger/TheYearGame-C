@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python3.11 preprocessing.py
+python3.11 preprocessor.py
 
 cat main0.cstub >  main.c
 cat main1.cstub >> main.c
