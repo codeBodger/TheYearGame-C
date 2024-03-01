@@ -18,7 +18,9 @@ def get_firsts(pattern_groups) -> {str}:
 
 def main():
 	year_digits = get_year()
-	print(f"which has digits {year_digits[0]} {year_digits[1]} {year_digits[2]} {year_digits[3]}\n")
+	print("which has digits",
+		year_digits[0], year_digits[1], year_digits[2], year_digits[3],
+	"\n")
 
 	with open("patterns.txt") as f:
 		patterns_str = f.read() \
